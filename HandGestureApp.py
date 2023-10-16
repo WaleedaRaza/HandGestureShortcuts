@@ -104,9 +104,6 @@ class HandGestureApp:
                 elif finger_up[2] and finger_up[3] and not finger_up[1]:
                     pyautogui.hotkey('command', 'a')  # select all
                     cooldown_frames = 15
-                if gesture_detected:   # You will need to implement the logic to set gesture_detected to True or False
-                    self.cooldown_frames = 15                if gesture_detected:   # You will need to implement the logic to set gesture_detected to True or False
-                    self.cooldown_frames = 15                if gesture_detected:   # You will need to implement the logic to set gesture_detected to True or False
-                    self.cooldown_frames = 15                if gesture_detected:   # You will need to implement the logic to set gesture_detected to True or False
-                    self.cooldown_frames = 15root = tk.Tk()
+
+root = tk.Tk()
 app = HandGestureApp(root, "Hand Gesture Recognition")
